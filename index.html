@@ -1,12 +1,200 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GM_POA</title>
-</head>
-<body>
-    <h1>Teste site GUARDA MUNICIPAL PORTO ALEGRE proprietário Márcio Menger de Souza</h1>
-</body>
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Secretaria de Segurança de Porto Alegre</title> </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="author" content="Marcio">
+        <meta name="description" content="site segurança municipal">
+        <meta name="keywords" content="html5, tecnologia, css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!-- Fontes -->
+        <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        
+        <!-- arquivos CSS-->
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body class="no-js">
+        
+        <header class="header">
+          <!--link comuma todas as páginas para voltar a página inicial-->
+          <a href="index.html" class="logo-text">Guarda Municipal</a>
+          
+          <!--botão sanduíche aparece quando se diminui a página-->
+          <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span></button>
+          
+          <!--menu de navegação para outras páginas-->
+          <nav class="header__nav">
+            <ul>
+              <li><a href="concursos.html">Concursos</a></li>
+              <li><a href="#">atuação</a></li>
+              <li><a href="intranet.html">Intranet</a></li>
+              <li><a href="#lst">Fotos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </header>
+        
+        <section class="hero">            
+          <h1 class="hero__title">            
+            Conhecida como <abbr title="Guarda Municipal">GM</abbr> Poa
+          </h1>
+          <p class="hero__text">A segurança da vida em primeiro lugar</p>
+          <a href="intranet.html" class="hero__btn">Intranet</a>                      
+        </section>
+
+        <div class="container">
+          <section class="people-cards">
+            <article class="people-cards__card">               
+
+                <img src="img/concursos-publicos.png" alt="Concursos" class="people-cards__image">
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Concursos Abertos e Anteriores</h2>
+                  <p class="people-cards__text">Provas anteriores, bancas, editais abertos e muitos mais...</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/vtr.png" alt="viatura" class="people-cards__image">
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Investimentos em Equipamentos</h2>
+                  <p class="people-cards__text">Investimentos realizados para trazer maior segurança a população de Porto Alegre.</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/paço.jpg" alt="paço municipal" class="people-cards__image">
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Competências da GM</h2>
+                  <p class="people-cards__text">Entenda nesse artigo qual é a real competência e área de atuação da Guarda municipal.</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/nap.jpg" alt="núcleo de ações preventivas" class="people-cards__image">
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Núcleo de Ações Preventivas</h2>
+                  <p class="people-cards__text">Conheça o trabalho que o NAP vem desenvolvendo em seu bairro.</p>
+                </div>
+            </article>           
+                
+          </section>
+        </div>
+        
+        <section class="content">
+          <div class="container">
+            <article>
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>            
+              <a href="#" class="button button-primary">BUTTON</a>
+              <a href="#" class="button button-secundary">BUTTON</a>
+            </article>
+
+            <article>
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
+              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
+            </article>  
+          </div>
+        </section>
+        
+        
+        <section class="last-articles">
+            <div class="last-articles__title">
+                <div class="container">
+                    <h2 id="lst">Fotos</h2>
+                </div>
+            </div>
+
+          <div class="last-articles__thumbs">
+              <a href="#"><img src="img/articles/gm1.gif" alt=""></a>
+              <a href="#"><img src="img/articles/gm2.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/gm3.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/gm4.png" alt=""></a>
+              <a href="#"><img src="img/articles/gm5.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/gm6.jpeg" alt=""></a>
+              <a href="#"><img src="img/articles/gm7.png" alt=""></a>
+              <a href="#"><img src="img/articles/08.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/05.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/02.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/11.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/12.jpg" alt=""></a>
+          </div>
+        </section>
+
+        <div class="laptop-slider">            
+          <div class="slideshow">
+            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
+            <span class="prev" style="display: none;"><i class="fas fa-caret-left fa-4x"></i></span>
+            <span class="next" style="display: none;"><i class="fas fa-caret-right fa-4x"></i></span>
+          </div>                    
+        </div>
+        
+        <section class="quote-container">
+
+          <div class="quote-slideshow">
+            <figure>
+              <h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+              <figcaption>
+                Nam mi enim, auctor non ultricies.
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</h2>
+              <figcaption>
+                Nam mi enim, auctor.
+              </figcaption>
+            </figure>
+            <span class="prev" style="display:none;"><i class="fas fa-caret-left fa-2x"></i></span>
+            <span class="next" style="display:none;"><i class="fas fa-caret-right fa-2x"></i></span>
+          </div>
+          
+          
+          
+        </section>
+
+        <footer class="footer">
+            
+            <div class="container">
+              <figure>
+                <a href="https://prefeitura.poa.br/">
+                  <!--logo da prefeitura no rodapé da página -->
+                  <img src="img/logopoa.svg" alt="logotipo de Porto Alegre">
+                </a>
+              </figure>
+
+              <h2 class="footer__logo">Prefeitura Municipal de Porto Alegre</h2>
+        
+              <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+
+              <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+              <!--abrir páginas de redes sociais em nova janela-->
+              <ul class="footer__links">
+                <li><a href="https://twitter.com/login?lang=pt" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-at"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+        </footer>
+        
+        <script src="js/menu.js"></script>        
+        <script src="js/carousel.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
 </html>

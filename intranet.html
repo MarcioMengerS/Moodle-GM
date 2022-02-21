@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> Secretaria de Segurança de Porto Alegre</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marcio">
+    <meta name="description" content="concursos publicos">
+    <meta name="keywords" content="provas anteriores, bancas, questões">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body class="no-js">
+    <header class="header">
+        <a href="index.html" class="logo-text">Guarda Municipal</a>
+
+        <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span
+                class="sr-only">Menu</span></button>
+
+        <nav class="header__nav">
+            <ul>
+                <li><a href="concursos.html">Concursos</a></li>
+                <li><a href="index.html">atuação</a></li>
+                <li><a href="intranet.html">Intranet</a></li>
+                <li><a href="index.html">Fotos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Aqui entra o banner abaixo do menu com uma section-->
+    <section class="intranet">
+        <!--Formulário para inserção de ddos para login-->
+        <form class="intrabox" action="#">
+            <p>
+                <label for="nome">Login: </label>
+                <input type="text" name="login"id="login" placeholder="Digite seu login ou email" required="required">
+            </p>
+            <p>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha"id="senha" placeholder="Digite sua senha" required="required">
+            </p>
+            <p>
+                <input type="submit" id="submit" onclick="acessar();" value="Acessar">
+            </p>
+        </form>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <figure>
+              <a href="https://prefeitura.poa.br/">
+                <!--logo da prefeitura no rodapé da página -->
+                <img src="img/logopoa.svg" alt="logotipo de Porto Alegre">
+              </a>
+            </figure>
+
+            <h2 class="footer__logo">Prefeitura Municipal de Porto Alegre</h2>
+      
+            <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+
+            <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+            <!--abrir páginas de redes sociais em nova janela-->
+            <ul class="footer__links">
+                <li><a href="https://twitter.com/login?lang=pt" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-at"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+          </div>
+    </footer>
+    
+    <script src="js/menu.js"></script>        
+    <script src="js/carousel.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
